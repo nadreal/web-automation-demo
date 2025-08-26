@@ -69,3 +69,12 @@ graph TD;
 Pytest HTML reports generated on every run.
 JSON output ready for ingestion into Power BI or other dashboards.
 Future plans: Interactive QA dashboard to visualize pass/fail trends, API coverage, and flaky test detection.
+
+## 👨‍🚀 Author
+
+Stevan Grubac (a.k.a. nadreal)
+💻 Software Engineer | QA | DevOps
+🧠 Focus: Automation, CI/CD, Scalable Testing
+
+🔗 Connect on [LinkedIn](https://www.linkedin.com/in/stevangrubac/)
+🔗 Connect on [GitHub] (https://github.com/nadreal)
