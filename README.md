@@ -1,4 +1,4 @@
-# QA Automation Demo
+# QA Web Automation Demo
 
 This project demonstrates **UI and API test automation** using **Playwright + pytest**.
 
