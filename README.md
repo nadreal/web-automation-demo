@@ -1,4 +1,4 @@
-# ⚡Web Automation Demo — UI & API Testing
+# ⚡Web Automation Demo - UI & API Testing
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/nadreal/web-automation-demo/python-test.yml?branch=main&style=flat-square)
 ![Python Version](https://img.shields.io/badge/python-3.11-blue?style=flat-square)
@@ -13,7 +13,7 @@ This project demonstrates a **complete QA Automation workflow** for modern web a
 - **🔌 API Automation:** REST CRUD testing with pytest. For web/api [Reqres](https://reqres.in)
 - **⚙  CI/CD Integration:** GitHub Actions running automated tests on every push.  
 - **📊 Reporting & Analytics:** HTML/JSON reports, with future integration into Power BI dashboards.  
-- **🎯 Goal:** Showcase end-to-end QA engineering skills—from test design to automated execution in the cloud.
+- **🎯 Goal:** Showcase end-to-end QA engineering skills-from test design to automated execution in the cloud.
 
 
 ## 🧩 Tech Stack
@@ -39,7 +39,7 @@ This project demonstrates a **complete QA Automation workflow** for modern web a
 ├── api/                  # API automation tests (CRUD, login)
 └── conftest.py           # Shared fixtures
 
-📊 `reports/`             # Test reports (HTML/JSON)
+📊 `docs/report.html`    # Test reports (HTML/JSON)
 📄 `README.md`           # Project documentation
 ```
 
@@ -48,7 +48,7 @@ This project demonstrates a **complete QA Automation workflow** for modern web a
 pip install -r requirements.txt #install dependencies 
 python -m venv venv #create virutal envionment 
 .\venv\Scripts\Activate.ps1  # Windows PowerShell
-pytest --html=reports/report.html --self-contained-html #Run test and generate reports
+pytest --html=docs/report.html --self-contained-html #Run test and generate reports
 ```
 
 ## ⚙ Workflow Diagram
@@ -59,22 +59,20 @@ graph TD;
     B --> D[Run API Tests, Pytest];
     C --> E[Generate HTML/JSON Reports];
     D --> E;
-    E --> F[Optional: Power BI Dashboard];
+    E --> F[Optional: Github, Power BI, Dashboard];
     F --> G[Analyze Test Trends & Coverage];
 ```
 
 
 ## 📊 Reporting & Dashboard
 
-Pytest HTML reports generated on every run.
-JSON output ready for ingestion into Power BI or other dashboards.
-Future plans: Interactive QA dashboard to visualize pass/fail trends, API coverage, and flaky test detection.
+Pytest HTML reports generated on every run. [Download](https://github.com/nadreal/web-automation-demo/actions/runs/17239640429/artifacts/3853647875)<br>
+HTML/JSON output ready for ingestion into Power BI or other dashboards. 📄 [View Test Report](https://nadreal.github.io/web-automation-demo/report.html)<br>
+Future plans: Interactive QA dashboard to visualize pass/fail trends, API coverage, and flaky test detection.<br>
 
 ## 👨‍🚀 Author
 
-Stevan Grubac (a.k.a. nadreal)
-💻 Software Engineer | QA | DevOps
-🧠 Focus: Automation, CI/CD, Scalable Testing
+Stevan Grubac [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername) <br>
+💻 Software Engineer | QA | DevOps<br>
+🧠 Focus: Automation, CI/CD, Scalable Testing, DevOps<br>
 
-🔗 Connect on [LinkedIn](https://www.linkedin.com/in/stevangrubac/)
-🔗 Connect on [GitHub] (https://github.com/nadreal)

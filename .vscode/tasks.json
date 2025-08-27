@@ -25,7 +25,7 @@
         {
             "label": "Run Pytest and Open Report",
             "type": "shell",
-            "command": "pytest --html=reports/report.html --self-contained-html && start reports/report.html",
+            "command": "pytest --html=docs/report.html --self-contained-html && start docs/report.html",
             "presentation": {
                 "reveal": "always",
                 "panel": "shared"
