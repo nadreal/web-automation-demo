@@ -3,6 +3,7 @@ from playwright.sync_api import Page, expect
 
 LOGIN_URL = "https://www.saucedemo.com/"    
 
+@pytest.mark.ui
 @pytest.mark.parametrize("username,password,success", [
     ("standard_user", "secret_sauce", True),
     ("locked_out_user", "secret_sauce", False)
